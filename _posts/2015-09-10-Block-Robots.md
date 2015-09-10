@@ -4,11 +4,11 @@ title:  "Block Robots"
 date: 9/10/2015 14:32:22 AM 
 ---
 
-## BLOCK ROBOTS
+## BLOCK ROBOTS of a repository
 1. Create a new branch, named *NEWBRANCH*
 
     git checkout -b NEWBRANCH
-    git push -u origin NEWBRANCH
+	git push -u origin NEWBRANCH
     
 2. Change the default branch to *NEWBRANCH*
 
@@ -18,6 +18,8 @@ date: 9/10/2015 14:32:22 AM
 
     git branch -d master
     git push origin :master
+
+*THIS WILL NOT WORK WITH GITHUB-BASED WEBPAGES USING USERNAME.GITHUB.IO*
 
 ## Reference
  - [Block Robots by changing default branch](http://stackoverflow.com/questions/15844905/how-to-stop-google-indexing-my-github-repository)
