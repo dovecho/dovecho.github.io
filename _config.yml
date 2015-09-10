@@ -1,7 +1,7 @@
 # Site settings
 title: DOVEcho Blog - D.B.
 email: dovecho AT GMAIL DOT COM
-description: > Just drop something that worth remembered
+description: # Just drop something that worth remembered
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dovecho.github.io" # the base hostname & protocol for your site
 
