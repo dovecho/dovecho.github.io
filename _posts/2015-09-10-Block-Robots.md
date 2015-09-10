@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Block Robots"
+date: 9/10/2015 14:32:22 AM 
+---
+
+## BLOCK ROBOTS
+1. Create a new branch, named *NEWBRANCH*
+
+    git checkout -b NEWBRANCH
+    git push -u origin NEWBRANCH
+    
+2. Change the default branch to *NEWBRANCH*
+
+  See settings of your repository.
+  
+3. Remove the master branch
+
+    git branch -d master
+    git push origin :master
+
+## Reference
+ - [Block Robots by changing default branch](http://stackoverflow.com/questions/15844905/how-to-stop-google-indexing-my-github-repository)
+ - [About Robots.txt](http://www.robotstxt.org/)
+ - [Baidu Baike about Robots Agreement](http://baike.baidu.com/view/9274458.htm)
