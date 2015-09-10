@@ -6,18 +6,20 @@ date: 9/10/2015 14:32:22 AM
 
 ## BLOCK ROBOTS of a repository
 - Create a new branch, named *NEWBRANCH*
-    
+    ```
     git checkout -b NEWBRANCH
     git push -u origin NEWBRANCH
+    ```
     
 - Change the default branch to *NEWBRANCH*
    See settings of your repository.
   
 - Remove the master branch
-
+    ```
     git branch -d master
     git push origin :master
-
+    ```
+    
 *THIS WILL NOT WORK WITH GITHUB-BASED WEBPAGES USING USERNAME.GITHUB.IO*
 
 ## Reference
