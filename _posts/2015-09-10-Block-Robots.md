@@ -6,6 +6,7 @@ date: 9/10/2015 14:32:22 AM
 
 ## BLOCK ROBOTS of a repository
 1. Create a new branch, named *NEWBRANCH*
+
   ```
   git checkout -b NEWBRANCH
   git push -u origin NEWBRANCH
