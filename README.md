@@ -7,3 +7,4 @@ HOMEPAGE
 - [ ]  Contributions
 - [ ]  Resume
 - [ ]  External Links
+- [ ]  Album
