@@ -2,8 +2,8 @@
 HOMEPAGE
 
 ## Wishlist
-- []  Research
+- [ ]  Research
 - [x]  Publications
-- []  Contributions
-- []  Resume
-- []  External Links
+- [ ]  Contributions
+- [ ]  Resume
+- [ ]  External Links
