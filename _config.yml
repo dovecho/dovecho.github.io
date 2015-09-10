@@ -1,0 +1,15 @@
+# Site settings
+title: DOVEcho Blog - D.B.
+email: dovecho AT GMAIL DOT COM
+description: > Just drop something that worth remembered
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://dovecho.github.io" # the base hostname & protocol for your site
+
+github_username:  dovecho
+
+imageurl: "http://dovecho.github.io/images"
+RESEARCHERID: "http://www.researcherid.com/rid/B-6505-2012" # Researcher ID of THOMSON REUTERS
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
