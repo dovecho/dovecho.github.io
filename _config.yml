@@ -7,8 +7,8 @@ url: "http://dovecho.github.io" # the base hostname & protocol for your site
 
 github_username:  dovecho
 
-imageurl: "http://dovecho.github.io/images"
-researchid_url: "http://www.researcherid.com/rid/B-6505-2012" # Researcher ID of THOMSON REUTERS
+imageurl: "https://dovecho.github.io/images"
+researchid_url: "https://www.researcherid.com/rid/B-6505-2012" # Researcher ID of THOMSON REUTERS
 
 # Build settings
 markdown: kramdown

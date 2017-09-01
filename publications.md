@@ -3,9 +3,8 @@ layout: page
 title: Publications
 permalink: /Publications/
 ---
-## ResearcherID
 
-ResearcherID: [B-6505-2012](http://www.researcherid.com/rid/B-6505-2012)
+https://orcid.org/0000-0003-3143-1527/print
 
 ## Jounal Articles
 
