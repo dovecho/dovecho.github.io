@@ -8,8 +8,8 @@ date: 8/3/2020 22:58:00 PM
 
 - VSCode
 - Git
- 
-# 配置 Git
+
+## 配置 Git
 
 ### For Github
 
@@ -26,7 +26,7 @@ Github/  GitServer/
 
 - 为Github生成id_rsa
 
-```
+```shell
 dove@LONMP-X1 MINGW64 /e/GitFile
 $ ssh-keygen -t rsa -C dovecho@gmail.com
 Generating public/private rsa key pair.
@@ -60,7 +60,7 @@ Host github.com
 
 - 回到Git Bash，测试
 
-```
+```shell
 dove@LONMP-X1 MINGW64 /e/GitFile
 $ ssh -T git@github.com
 The authenticity of host 'github.com (13.229.188.59)' can't be established.
@@ -89,7 +89,7 @@ Git Server配置在Synology的NAS上面。
 
 在VSCode里面，通过```Ctrl+~```调出控制台，切换目录至Github的存储目录（可以把所有的代码放在一个文件夹里，也可以放在不同文件夹里），然后在命令行中运行：
 
-```bash 
+```bash
 git clone git@github.com:dovecho/dovecho.github.io.git
 ```
 
