@@ -14,6 +14,7 @@ date: 8/3/2020 22:58:00 PM
 ### For Github
 
 - 打开Git Bash，切换目录到目标文件夹（可能不用）
+
 ```shell
 dove@LONMP-X1 MINGW64 /e
 $ cd GitFile/
@@ -24,6 +25,7 @@ Github/  GitServer/
 ```
 
 - 为Github生成id_rsa
+
 ```
 dove@LONMP-X1 MINGW64 /e/GitFile
 $ ssh-keygen -t rsa -C dovecho@gmail.com
@@ -34,18 +36,10 @@ Enter same passphrase again:
 Your identification has been saved in id_rsa_github
 Your public key has been saved in id_rsa_github.pub
 The key fingerprint is:
-SHA256:FsmQShNE13uqU4S4QUCPFoMvGMuz2at1T2N0yj1oN54 dovecho@gmail.com
+SHA256:xxxx dovecho@gmail.com
 The key's randomart image is:
 +---[RSA 3072]----+
-| o=++.oo         |
-|o  =+..o..       |
-|o+oo.+ .+.       |
-|++. + . o..      |
-| .=  o oS+       |
-| o .. o.B        |
-|   ... @ =       |
-|  ... B + +      |
-| ..    o E       |
+----
 +----[SHA256]-----+
 ```
 
@@ -57,7 +51,7 @@ The key's randomart image is:
 
 ```shell
 # 配置github.com
-Host github.com                 
+Host github.com
     HostName github.com
     IdentityFile C:\\Users\\dove\\.ssh\\id_rsa_github
     PreferredAuthentications publickey
@@ -65,11 +59,12 @@ Host github.com
 ```
 
 - 回到Git Bash，测试
+
 ```
 dove@LONMP-X1 MINGW64 /e/GitFile
 $ ssh -T git@github.com
 The authenticity of host 'github.com (13.229.188.59)' can't be established.
-RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+RSA key fingerprint is SHA256:xxxx.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
 Warning: Permanently added 'github.com,13.229.188.59' (RSA) to the list of known hosts.
 git@github.com: Permission denied (publickey).
@@ -85,15 +80,20 @@ Hi dovecho! You've successfully authenticated, but GitHub does not provide shell
 ```
 
 ### For Git Server
+
 Git Server配置在Synology的NAS上面。
+
+目前尚未完成
 
 ## 下载测试
 
 在VSCode里面，通过```Ctrl+~```调出控制台，切换目录至Github的存储目录（可以把所有的代码放在一个文件夹里，也可以放在不同文件夹里），然后在命令行中运行：
+
 ```bash 
 git clone git@github.com:dovecho/dovecho.github.io.git
 ```
 
 ## 参考文献
+
 - [Windows下Git多账号配置，同一电脑多个ssh-key的管理](https://www.cnblogs.com/popfisher/p/5731232.html)
 - [Gitlab的SSH配置（linux和windows双版本）](https://www.cnblogs.com/fanbi/p/7772812.html)
